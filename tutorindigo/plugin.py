@@ -28,9 +28,8 @@ config: t.Dict[str, t.Dict[str, t.Any]] = {
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[]
         "FOOTER_NAV_LINKS": [
-            {"title": "About Us", "url": "https://esadecimale.it"},
-            {"title": "Blog", "url": "htps://esadecimale.it/blog/"},
-            {"title": "Contact Us", "url": "htps://esadecimale.it/contact/"},
+            {"title": "About Us", "url": "/about"},           
+            {"title": "Contact Us", "url": "/contact"},
         ],
     },
     "unique": {},
